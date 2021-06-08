@@ -12,5 +12,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<set-payload doc:name="Set Payload" doc:id="13990c32-f914-4a40-9f7b-a1ed12a0c7ad" value="sample load test"/>
 		<logger level="INFO" doc:name="entry" doc:id="a0be570d-e18b-4730-a7cc-8d37b71938cc" />
 		<set-payload doc:name="Set Payload" doc:id="94160b99-05ba-4cb5-ba31-bef1b35d7d2d" value="sample"/>
+		<logger level="INFO" doc:name="exit" doc:id="114dc778-e573-4e35-80f3-9e89d1b20155" />
 	</flow>
 </mule>
