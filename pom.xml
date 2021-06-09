@@ -32,7 +32,28 @@
 			</plugin>
 		</plugins>
 	</build>
-
+    <plugin>
+  <groupId>org.mule.tools.maven</groupId>
+  <artifactId>mule-maven-plugin</artifactId>
+  <version>3.4.2</version>
+  <extensions>true</extensions>
+  <configuration>
+    <cloudHubDeployment>
+      <uri>https://anypoint.mulesoft.com</uri>
+      <muleVersion>${app.runtime}</muleVersion>
+      <username>${gouse7866}</username>
+      <password>${khazi@1234!}</password>
+      <applicationName>$cicdpipeline</applicationName>
+      <environment>$Sandbox</environment>
+      <region>$eu-central-1</region>
+      <workers>$</workers>
+      <workerType>$Mirco</workerType>
+      <properties>
+        <key>value</key>
+      </properties>
+    </cloudHubDeployment>
+  </configuration>
+</plugin>  
 	<dependencies>
 		<dependency>
 			<groupId>org.mule.connectors</groupId>
