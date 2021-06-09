@@ -42,7 +42,7 @@
       <uri>https://anypoint.mulesoft.com</uri>
       <muleVersion>${app.runtime}</muleVersion>
       <username>${gouse7866}</username>
-      <password>${khazi@1234!}</password>
+      <password>${Khazi@1234!}</password>
       <applicationName>$cicdpipeline</applicationName>
       <environment>$Sandbox</environment>
       <region>$eu-central-1</region>
